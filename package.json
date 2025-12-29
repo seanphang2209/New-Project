@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx @cloudflare/next-on-pages",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "preview": "wrangler pages dev .vercel/output/static",
-    "deploy:pages": "wrangler pages deploy .vercel/output/static --project-name=carbonatlas"
+    "deploy:pages": "wrangler pages deploy .vercel/output/static --project-name=carbonatlas",
+    "build:cf": "next build && npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "next": "^14.2.0",
