@@ -41,10 +41,11 @@
    - Select **Connect to Git**
    - Choose your GitHub repository
    - Configure build settings:
-     - **Framework preset:** Next.js
+     - **Framework preset:** Next.js (Static HTML Export)
      - **Build command:** `npm run build`
-     - **Build output directory:** `.next`
+     - **Build output directory:** `out`
      - **Root directory:** `/` (or leave blank)
+     - **Node version:** 18.x or 20.x
 
 3. Deploy: Cloudflare will automatically build and deploy
 
@@ -67,7 +68,7 @@
 
 4. Deploy:
    ```bash
-   wrangler pages deploy .next
+   wrangler pages deploy out
    ```
 
 ## Environment Variables

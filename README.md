@@ -33,7 +33,7 @@ This repository is intended to be hosted on Cloudflare.
 2. In Cloudflare Dashboard, go to Pages
 3. Create a new project and connect your GitHub repository
 4. Set build command: `npm run build`
-5. Set output directory: `.next`
+5. Set output directory: `out` (Next.js static export creates `out` folder)
 6. Deploy
 
 ### Option 2: Cloudflare Workers (via Wrangler)
