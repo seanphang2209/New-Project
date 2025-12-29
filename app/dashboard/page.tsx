@@ -54,6 +54,13 @@ export default function DashboardPage() {
   const maturityLevel = assessment.maturityLevel || 1
   const maturityLabels = ['Needs Improvement', 'Below Average', 'Average', 'Above Average', 'Best Practice']
   const maturityColors = ['bg-red-100 text-red-800', 'bg-orange-100 text-orange-800', 'bg-yellow-100 text-yellow-800', 'bg-blue-100 text-blue-800', 'bg-green-100 text-green-800']
+  
+  // eslint-disable-next-line react/no-unescaped-entities
+  const maturityMessages = {
+    best: "Excellent! You're performing at best practice levels. Continue monitoring and look for innovation opportunities.",
+    above: "You're at industry average. Consider implementing efficiency measures to move toward best practice.",
+    below: "There's significant opportunity to improve. Focus on high-impact reduction strategies."
+  }
 
   const getUnlockedAchievementIds = () => new Set(unlockedAchievements.map(ua => ua.achievementId))
 
@@ -115,10 +122,10 @@ export default function DashboardPage() {
               </div>
               <p className="text-sm text-gray-600">
                 {maturityLevel >= 4
-                  ? "Excellent! You're performing at best practice levels. Continue monitoring and look for innovation opportunities."
+                  ? maturityMessages.best
                   : maturityLevel >= 3
-                  ? "You're at industry average. Consider implementing efficiency measures to move toward best practice."
-                  : "There's significant opportunity to improve. Focus on high-impact reduction strategies."}
+                  ? maturityMessages.above
+                  : maturityMessages.below}
               </p>
             </div>
 
