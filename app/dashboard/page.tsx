@@ -115,10 +115,10 @@ export default function DashboardPage() {
               </div>
               <p className="text-sm text-gray-600">
                 {maturityLevel >= 4
-                  ? 'Excellent! You\'re performing at best practice levels. Continue monitoring and look for innovation opportunities.'
+                  ? "Excellent! You're performing at best practice levels. Continue monitoring and look for innovation opportunities."
                   : maturityLevel >= 3
-                  ? 'You\'re at industry average. Consider implementing efficiency measures to move toward best practice.'
-                  : 'There\'s significant opportunity to improve. Focus on high-impact reduction strategies.'}
+                  ? "You're at industry average. Consider implementing efficiency measures to move toward best practice."
+                  : "There's significant opportunity to improve. Focus on high-impact reduction strategies."}
               </p>
             </div>
 
@@ -166,7 +166,7 @@ export default function DashboardPage() {
                   {assessment.totalEmissions < benchmark.bestPracticeEmissions && (
                     <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
                       <p className="text-sm text-green-800 font-semibold">
-                        🎉 Congratulations! You're already performing at best practice levels.
+                        🎉 Congratulations! You&apos;re already performing at best practice levels.
                       </p>
                     </div>
                   )}

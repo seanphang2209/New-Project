@@ -83,7 +83,7 @@ export default function HomePage() {
                 Compare your carbon footprint calculator business results against industry standards. See where you stand and identify opportunities for improvement.
               </p>
               <p className="text-gray-600">
-                Whether you're a small business carbon footprint calculator user or managing enterprise emissions, we provide relevant benchmarks for your industry and size.
+                Whether you&apos;re a small business carbon footprint calculator user or managing enterprise emissions, we provide relevant benchmarks for your industry and size.
               </p>
             </div>
             <div className="card">
@@ -101,7 +101,7 @@ export default function HomePage() {
                 Unlock achievements as you improve, and discover practical business upsides from carbon reduction efforts—from cost savings to brand reputation.
               </p>
               <p className="text-gray-600">
-                Track your progress with our carbon footprint quiz and see how measuring your company's carbon footprint leads to real business value.
+                Track your progress with our carbon footprint quiz and see how measuring your company&apos;s carbon footprint leads to real business value.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Industry Benchmarks</h2>
           <p className="text-center text-gray-700 mb-8 max-w-3xl mx-auto">
-            Our corporate carbon footprint calculator compares your results against industry averages and best practices. Whether you're using a carbon footprint calculator for manufacturing, a hotel carbon footprint calculator, or a farm carbon footprint calculator, we provide relevant benchmarks.
+            Our corporate carbon footprint calculator compares your results against industry averages and best practices. Whether you&apos;re using a carbon footprint calculator for manufacturing, a hotel carbon footprint calculator, or a farm carbon footprint calculator, we provide relevant benchmarks.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="card text-center">
@@ -176,7 +176,7 @@ export default function HomePage() {
             <div className="card mb-6">
               <h3 className="text-xl font-semibold mb-4">Our Approach</h3>
               <p className="text-gray-700 mb-4">
-                CarbonAtlas provides decision-support estimates to help you understand and measure your company's carbon footprint. Our carbon footprint calculator for business is designed to be simple, clear, and actionable.
+                CarbonAtlas provides decision-support estimates to help you understand and measure your company&apos;s carbon footprint. Our carbon footprint calculator for business is designed to be simple, clear, and actionable.
               </p>
               <p className="text-gray-700 mb-4">
                 We align with global frameworks including the GHG Protocol, but our tool is not a certification or compliance system. Think of us as your first step in understanding how to calculate carbon footprint for a business.
@@ -209,7 +209,7 @@ export default function HomePage() {
             <div className="card">
               <h3 className="text-lg font-semibold mb-2">How do I calculate my business carbon footprint?</h3>
               <p className="text-gray-700">
-                Use our business carbon calculator by entering your energy usage, fuel consumption, and business spending. Our carbon footprint calculator for companies guides you through each step. You can also use the "Try with sample data" option to see how it works.
+                Use our business carbon calculator by entering your energy usage, fuel consumption, and business spending. Our carbon footprint calculator for companies guides you through each step. You can also use the &quot;Try with sample data&quot; option to see how it works.
               </p>
             </div>
             <div className="card">
@@ -252,19 +252,19 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12">Understanding Carbon Footprints</h2>
           <div className="prose max-w-none">
             <p className="text-gray-700 mb-4">
-              Whether you're looking for a carbon footprint calculator, a carbon emissions calculator, a carbon emission calculator, a GHG emissions calculator, a carbon calculator, a footprint calculator, a scope 3 calculator, or a carbon offset calculator, understanding how to measure carbon footprint is essential for modern businesses.
+              Whether you&apos;re looking for a carbon footprint calculator, a carbon emissions calculator, a carbon emission calculator, a GHG emissions calculator, a carbon calculator, a footprint calculator, a scope 3 calculator, or a carbon offset calculator, understanding how to measure carbon footprint is essential for modern businesses.
             </p>
             <p className="text-gray-700 mb-4">
               Learning how to calculate carbon footprint and how to measure carbon footprint starts with understanding your business activities. Our carbon footprint test helps you identify where emissions come from, and our carbon footprint quiz provides educational insights into carbon footprint calculation.
             </p>
             <p className="text-gray-700 mb-4">
-              Many businesses ask: "How do I calculate carbon footprint of a company?" or "How do I calculate carbon footprint for a business?" The answer begins with measuring your energy use, transportation, and business operations. Our carbon footprint calculator for industry supports various sectors, making it easier to calculate carbon footprint business activities.
+              Many businesses ask: &quot;How do I calculate carbon footprint of a company?&quot; or &quot;How do I calculate carbon footprint for a business?&quot; The answer begins with measuring your energy use, transportation, and business operations. Our carbon footprint calculator for industry supports various sectors, making it easier to calculate carbon footprint business activities.
             </p>
             <p className="text-gray-700 mb-4">
               From the EPA carbon footprint calculator for business methodology to industry-specific tools like carbon footprint calculator for manufacturing, there are many approaches. CarbonAtlas combines the best practices from these frameworks into one simple, accessible tool for companies that measure carbon footprint regularly.
             </p>
             <p className="text-gray-700">
-              Whether you're calculating your business carbon footprint for the first time or looking to improve your existing carbon footprint calculator business program, CarbonAtlas provides the insights you need to measure business carbon footprint effectively and take meaningful action.
+              Whether you&apos;re calculating your business carbon footprint for the first time or looking to improve your existing carbon footprint calculator business program, CarbonAtlas provides the insights you need to measure business carbon footprint effectively and take meaningful action.
             </p>
           </div>
         </div>
