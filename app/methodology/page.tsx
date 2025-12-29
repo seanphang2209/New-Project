@@ -91,7 +91,7 @@ export default function MethodologyPage() {
                 <strong>Currency:</strong> Financial inputs should be in USD or converted to USD equivalents for consistency.
               </li>
               <li>
-                <strong>Grid Factors:</strong> Grid emission factors are country-level averages and may not reflect your specific utility provider&apos;s energy mix.
+                <strong>Grid Factors:</strong> Grid emission factors are country-level averages and may not reflect your specific utility provider&apos;#39;#39;#39;s energy mix.
               </li>
             </ul>
           </div>
