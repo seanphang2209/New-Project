@@ -41,13 +41,16 @@
    - Select **Connect to Git**
    - Choose your GitHub repository
    - Configure build settings:
-     - **Framework preset:** Next.js (Static HTML Export)
-     - **Build command:** `npm run build`
-     - **Build output directory:** `out`
+     - **Framework preset:** Next.js
+     - **Build command:** `npm run build` (or `bun run build`)
+     - **Build output directory:** `.vercel/output/static`
      - **Root directory:** `/` (or leave blank)
      - **Node version:** 18.x or 20.x
 
 3. Deploy: Cloudflare will automatically build and deploy
+   - The build script runs `next build && npx @cloudflare/next-on-pages`
+   - This generates `.vercel/output/static` with static assets
+   - Functions are auto-detected from `.vercel/output/functions`
 
 ### Option 2: Via Wrangler CLI
 
@@ -65,10 +68,15 @@
    ```bash
    npm run build
    ```
+   This runs `next build && npx @cloudflare/next-on-pages` automatically.
 
 4. Deploy:
    ```bash
-   wrangler pages deploy out
+   npm run deploy:pages
+   ```
+   Or manually:
+   ```bash
+   wrangler pages deploy .vercel/output/static --project-name=carbonatlas
    ```
 
 ## Environment Variables

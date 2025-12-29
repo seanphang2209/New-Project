@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build",
-    "pages:deploy": "npm run build && wrangler pages deploy out"
+    "preview": "wrangler pages dev .vercel/output/static",
+    "deploy:pages": "wrangler pages deploy .vercel/output/static --project-name=carbonatlas"
   },
   "dependencies": {
     "next": "^14.2.0",
@@ -17,6 +17,7 @@
     "sql.js": "^1.10.3"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.15.0",
     "@types/node": "^20.11.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
@@ -25,6 +26,7 @@
     "eslint-config-next": "^14.2.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "wrangler": "^3.95.0"
   }
 }
