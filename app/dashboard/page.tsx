@@ -172,7 +172,7 @@ export default function DashboardPage() {
                   {assessment.totalEmissions < benchmark.bestPracticeEmissions && (
                     <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-4">
                       <p className="text-sm text-green-800 font-semibold">
-                        🎉 Congratulations! You&apos;#39;#39;#39;re already performing at best practice levels.
+                        🎉 Congratulations! You&apos;#39;#39;#39;#39;#39;#39;re already performing at best practice levels.
                       </p>
                     </div>
                   )}
