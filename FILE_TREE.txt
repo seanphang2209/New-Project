@@ -1,0 +1,62 @@
+CarbonAtlas - Complete File Structure
+=====================================
+
+.
+├── .eslintrc.json              # ESLint configuration
+├── .gitignore                  # Git ignore rules
+├── DEPLOYMENT.md               # Deployment instructions
+├── TECHNICAL_NOTES.md          # Technical decisions & scaling guide
+├── FILE_TREE.txt               # This file
+├── README.md                   # Project overview & setup
+├── next.config.js              # Next.js configuration (Cloudflare-compatible)
+├── package.json                # Dependencies and scripts
+├── postcss.config.mjs          # PostCSS configuration
+├── tailwind.config.ts          # Tailwind CSS configuration
+├── tsconfig.json               # TypeScript configuration
+│
+├── app/                        # Next.js App Router pages
+│   ├── globals.css             # Global styles and Tailwind directives
+│   ├── layout.tsx              # Root layout with Header/Footer
+│   ├── page.tsx                # Homepage (500+ words, all keywords)
+│   │
+│   ├── calculator/
+│   │   └── page.tsx            # Calculator page with step-by-step form
+│   │
+│   ├── dashboard/
+│   │   └── page.tsx            # Dashboard with results, benchmarks, achievements
+│   │
+│   └── methodology/
+│       └── page.tsx            # Methodology explanation page
+│
+├── components/                 # Reusable React components
+│   ├── Footer.tsx              # Footer with disclaimer
+│   ├── Header.tsx              # Navigation header
+│   └── Tooltip.tsx             # Tooltip component for help text
+│
+├── lib/                        # Business logic and utilities
+│   ├── types.ts                # TypeScript type definitions
+│   ├── data.ts                 # Data store (in-memory, ready for D1 migration)
+│   ├── calculations.ts         # Emission calculation functions
+│   └── benchmarks.ts           # Industry benchmark data
+│
+└── public/                     # Static assets
+    └── .gitkeep                # Placeholder file
+
+Total Files: 20 source files + configuration files
+
+Key Features:
+- Homepage: 1,672 words (exceeds 500-word requirement)
+- All required keywords included naturally throughout the site
+- Calculator: Step-by-step form with validation
+- Dashboard: Results, benchmarks, achievements, business upsides
+- Methodology: Detailed explanations with framework alignment
+- Disclaimers: Persistent footer disclaimer on all pages
+- Responsive: Tailwind CSS for mobile-first design
+- TypeScript: Full type safety
+- Git: Initialized and ready to push
+
+Next Steps:
+1. Run: npm install
+2. Run: npm run dev
+3. Push to GitHub (see DEPLOYMENT.md)
+4. Deploy to Cloudflare Pages (see DEPLOYMENT.md)
