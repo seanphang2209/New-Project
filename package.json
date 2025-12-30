@@ -2,20 +2,21 @@
   "name": "carbonatlas",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
     "preview": "wrangler pages dev .vercel/output/static",
-    "deploy:pages": "wrangler pages deploy .vercel/output/static --project-name=carbonatlas",
-    "build:cf": "next build && npx @cloudflare/next-on-pages"
+    "deploy:pages": "wrangler pages deploy .vercel/output/static --project-name=carbonatlas"
   },
   "dependencies": {
     "next": "^14.2.0",
     "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "sql.js": "^1.10.3"
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.15.0",
